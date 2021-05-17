@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+:root {
+  --cell-color: black;
+}
+* {
+  padding: 0;
+  margin: 0;
+
+}
+
+body {
+  background-color: #181818;
+}
+
+.title {
+  text-align: center;
+  color: #eee;
+  margin: 25px;
+  font-family: Anton, sans-serif;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+
+.grid {
+  display: grid;
+  margin: 0 auto;
+  border: 3px solid #eee;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 50%;
+  height: 40vh;
+}
+
+.gridSize {
+  display: block;
+  margin: 25px auto;
+  background-color: #181818;
+  width: 95px;
+  height: 45px;
+  border-radius: 20px;
+  border: 3px solid #fff;
+  box-shadow: 3px 4px #fff;
+  color: #eee;
+  font-family: Anton, sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
